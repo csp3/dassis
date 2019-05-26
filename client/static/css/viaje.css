@@ -1,0 +1,277 @@
+#vercliente, #vercliented, #vercarro, #verempleado, #verlugar,#verlugarp, #fecsalida, #fecretorno, #grt, #detalle, #fecrecibido, #verfactura {
+	width: 15%;
+	border: 1px solid transparent;
+	border-radius: 1px;
+	padding: 1px 3px;
+	color: #506760;
+	font-family: bel2;
+	margin-top: 4px;
+	margin-right: 15px;
+	float: left;
+	background-color: #b2b2b2;
+}
+
+#conte {
+	position: absolute;
+}
+
+#verlugar, #verlugarp, #vercliente, #vercliented {
+	width: 27%;
+}
+
+#vercarro, #verfactura {
+	width: 8%;
+}
+
+#detalle {
+	width: 36%;
+	height: 70px;
+	resize: none;
+}
+
+#grt {
+	width: 6.5%;
+}
+
+#fecsalida, #fecrecibido {
+	width: 7%;
+}
+
+#nro {
+	width: 15%;
+}
+
+#inpbuscar {
+	width: 50%;
+}
+
+#verempleado {
+	width: 12.5%;
+}
+
+#btnAgregar {
+	margin-top: 3px;
+}
+#tablatit tr td {
+	border: 1px solid blue;
+}
+#tablatit tr td {
+	border: 1px solid transparent;
+}
+
+
+#tablatit tr td:nth-child(n+0) {
+	width: 80px;
+}
+
+#tablatit tr td:nth-child(2n+0) {
+	width: 200px;
+}
+
+#tablatit tr td:nth-child(3n+0) {
+	width: 200px;
+}
+
+#tablatit tr td:nth-child(4n+0) {
+	width: 200px;
+}
+
+#tablatit tr td:nth-child(5n+0) {
+	width: 200px;
+}
+
+#tablatit tr td:nth-child(6n+0) {
+	width: 280px;
+}
+
+#tablatit tr td:nth-child(7n+0) {
+	width: 70px;
+}
+
+#tablatit tr td:nth-child(8n+0) {
+	width: 70px;
+}
+
+#tablatit tr td:nth-child(9n+0) {
+	width: 70px;
+}
+
+#tablatit tr td:nth-child(10n+0) {
+	width: 50px;
+}
+
+#tablatit tr td:nth-child(11n+0) {
+	width: 50px;
+}
+
+#tablatit tr td:nth-child(12n+0) {
+	width: 60px;
+}
+
+
+#tabladat tr td:nth-child(n+0) {
+	width: 76px;
+	text-align: right;
+}
+
+#tabladat tr td:nth-child(2n+0) {
+	width: 221px;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(3n+0) {
+	width: 221px;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(4n+0) {
+	width: 221px;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(5n+0) {
+	width: 221px;
+	text-align: center;
+}
+
+#tabladat tr td:nth-child(6n+0) {
+	width: 312px;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(7n+0) {
+	width: 80px;
+	text-align: center;
+}
+
+#tabladat tr td:nth-child(8n+0) {
+	width: 90px;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(9n+0) {
+	width: 90px;
+}
+
+#tabladat tr td:nth-child(10n+0) {
+	width: 50px;
+	text-align: center;
+}
+
+#tabladat tr td:nth-child(11n+0) {
+	width: 50px;
+	text-align: center;
+}
+
+#tabladat tr td:nth-child(12n+0) {
+	width: 50px;
+	text-align: center;
+}
+
+
+input:disabled {
+	background-color: rgb(235, 235, 228);
+}
+
+select:disabled {
+	background-color: rgb(235, 235, 228);
+}
+
+.divNuevo > form > input:enabled, .divNuevo > form > select:enabled {
+	background-color: rgb(246, 246, 241);
+}
+
+#formbus > label {
+	font-size: 13px;
+	font-family: bel6;
+	font-weight: bold;
+	color: rgb(94, 109, 128);
+}
+
+/**************************************/
+.divconsulta > input {
+	font-family: 'bel3';
+	border: 1px solid #638b8b;
+}
+
+.divconsulta #buscarcliente {
+	width: 18%;
+}
+
+.divconsulta #fechaini, .divconsulta #fechafin, .divconsulta #buscarplaca {
+	width: 6%;
+	text-align: center;
+}
+
+.divconsulta #buscargrt {
+	width: 8%;
+}
+
+.divconsulta .btnconsultar  {
+	margin-right: 10px;
+	background-color: #2f4f4f;
+	border: 1px solid #2f4f4f;
+	border-radius: 2px;
+	padding: 5px 7px;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 11px;
+}
+
+.divconsulta .btnconsultar:active {
+	background-color: #618080;
+}
+
+#exportarexcel {
+	font-size: 11px;
+	font-family: 'bel6';
+	margin-right: 20px;
+}
+
+/*
+
+#tabladat tr td:nth-child(n+0) {
+	width: 3%;
+	text-align: right;
+}
+
+#tabladat tr td:nth-child(2n+0) {
+	width: 18%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(3n+0) {
+	width: 18%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(4n+0) {
+	width: 4%;
+	text-align: center;
+}
+
+#tabladat tr td:nth-child(5n+0) {
+	width: 10%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(6n+0) {
+	width: 7%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(7n+0) {
+	width: 5%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(8n+0) {
+	width: 5%;
+}
+
+#tabladat tr td:nth-child(9n+0) {
+	width: 5%;
+	text-align: center;
+}
+
+*/

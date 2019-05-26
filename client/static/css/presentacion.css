@@ -1,0 +1,157 @@
+@font-face {
+	font-family: 'bel1';
+	src: url(../fonts/AlegreyaSans-Light.ttf);
+}
+
+@font-face {
+	font-family: 'bel2';
+	src: url(../fonts/Cabin-Medium.ttf);
+}
+
+@font-face {
+	font-family: 'bel3';
+	src: url(../fonts/Cabin-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'bel4';
+	src: url(../fonts/Cinzel-Regular.ttf)
+}
+
+@font-face {
+	font-family: 'bel5';
+	src: url(../fonts/Comfortaa-Light.ttf)
+}
+
+@font-face {
+	font-family: 'bel6';
+	src: url(../fonts/Montserrat-Regular.ttf)
+}
+
+@font-face {
+	font-family: 'bel7';
+	src: url(../fonts/Muli-Light.ttf)
+}
+
+@font-face {
+	font-family: 'bel8';
+	src: url(../fonts/Play-Regular.ttf)
+}
+
+@font-face {
+	font-family: 'bel9';
+	src: url(../fonts/Questrial-Regular.ttf)
+}
+
+@font-face {
+	font-family: 'bel10';
+	src: url(../fonts/TitilliumWeb-Light.ttf)
+}
+
+@font-face {
+	font-family: 'bel11';
+	src: url(../fonts/Ubuntu-Light.ttf)
+}
+
+
+:root {
+	--colorLetra: #ffffff;
+	--borde: 1px solid #ce40155d;
+	--borde-input: 1px solid #544f7e52;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: bel3;
+	background-image: url(../images/m3.jpg);
+	background-size: cover;
+}
+
+.contenedor-1 {
+	height: initial;
+	padding: 5% 0  0 0%;
+	/* display: inline-block; */
+	/* border: 1px solid red; */
+}
+
+#clientes, #documentos, #proveedores, #carros, #tramites, #empleados, #viajes, #gastos, #lugares, #facturas, #efectivoviaje, #misenlaces, #repuestos {
+	user-select: none;
+	border: 1px solid transparent; 
+	background-color: transparent;
+	display: inline-block;
+	width: 120px;
+	height: 25px;
+	vertical-align: middle;
+	margin: 0 5px;
+	padding-top: 10px;
+	font-family: bel3;
+	font-size: 12px;
+	/* color: #537a94; */
+	color: #ffffffb7;
+	cursor: pointer;
+	transition: border 0.4s ease-in, color 0.3s ease-in;
+	text-decoration: none;
+}
+
+#clientes:hover, #documentos:hover, #proveedores:hover, #carros:hover, #tramites:hover, #empleados:hover, #viajes:hover, #gastos:hover, #lugares:hover, #facturas:hover, #efectivoviaje:hover, #misenlaces:hover, #repuestos:hover {
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid rgb(32, 196, 95);
+	color: rgb(92, 192, 130);
+	background-color: #ffffff36;
+	transition: border 0.4s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+#enlaces {
+	background-color: rgb(175, 0, 0);
+}
+
+
+.titulo {
+	text-transform: uppercase;
+	color: rgb(248, 11, 11);
+	/* text-shadow: 1px 0px white, -1px 0 white, 0px -1px white, 0px 1px white; */
+	font-size: 50px;
+	font-family: bel1;
+	margin-bottom: 30px;
+	font-weight: bold; 
+	perspective: 500px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+	padding-top: 5px;
+}
+
+.titulo .logodas:nth-child(2) {
+	animation: anima 4s linear infinite;
+}
+
+@keyframes anima {
+	0%   {transform: rotateY(0deg); }
+	25%  {transform: rotateY(20deg); }
+	50%  {transform: rotateY(0deg); }
+	75%  {transform: rotateY(-20deg); }
+	100% {transform: rotateY(0deg); }
+}
+
+#misenlaces {
+	overflow: hidden;
+}
+
+#misenlaces:hover {
+	overflow: visible;
+}
+
+#misenlaces ul li {
+	text-align: left;
+	width: 100px;
+	padding: 7px;
+	margin: 2px 0;
+	background-color: rgba(255, 0, 0, 0.404);
+	border-radius: 1px;
+	list-style-type: circle;
+}
+
+#misenlaces ul li:hover {
+	background-color: rgb(175, 0, 0);
+}

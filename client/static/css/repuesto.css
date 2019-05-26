@@ -1,0 +1,197 @@
+#vercarro, #verempleado, #codigo, #fecingreso, #descripcion, #importe, #imagen, #imagen3 {
+	width: 15%;
+	border: 1px solid transparent;
+	border-radius: 1px;
+	padding: 1px 3px;
+	color: #506760;
+	font-family: bel2;
+	margin-top: 4px;
+	margin-right: 15px;
+	float: left;
+	background-color: #b2b2b2;
+}
+
+#imagen3 {
+	width: 300px;
+}
+
+#vercarro {
+	width: 10%;
+}
+
+#fecingreso {
+	width: 8%;
+}
+
+#descripcion {
+	width: 35%;
+	resize: none;
+	height: 70px;
+}
+
+#importe {
+	width: 180px;
+	margin-bottom: 20px;
+}
+
+#imagen {
+	width: 320px;
+}
+
+#nro {
+	width: 15%;
+}
+
+#inpbuscar {
+	width: 50%;
+}
+
+#btnAgregar {
+	margin-top: 25px;
+}
+
+#tablatit tr td {
+	border: 1px solid transparent;
+}
+
+#tablatit tr td:nth-child(n+0) {
+	width: 70px;
+}
+
+#tablatit tr td:nth-child(2n+0) {
+	width: 140px;
+}
+
+#tablatit tr td:nth-child(3n+0) {
+	width: 70px;
+}
+
+#tablatit tr td:nth-child(4n+0) {
+	width: 150px;
+}
+
+#tablatit tr td:nth-child(5n+0) {
+	width: 320px;
+}
+
+#tablatit tr td:nth-child(6n+0) {
+	width: 60px;
+}
+
+#tablatit tr td:nth-child(7n+0) {
+	width: 80px;
+}
+
+#tablatit tr td:nth-child(8n+0) {
+	width: 130px;
+}
+
+#tablatit tr td:nth-child(9n+0) {
+	width: 60px;
+}
+
+
+
+#tabladat tr td:nth-child(n+0) {
+	width: 70px;
+	text-align: right;
+}
+
+#tabladat tr td:nth-child(2n+0) {
+	width: 140px;
+	text-align: center;
+}
+
+#tabladat tr td:nth-child(3n+0) {
+	width: 70px;
+	text-align: center;
+}
+
+#tabladat tr td:nth-child(4n+0) {
+	width: 150px;
+	text-align: center;
+}
+
+#tabladat tr td:nth-child(5n+0) {
+	width: 320px;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(6n+0) {
+	width: 60px;
+	text-align: center;
+}
+
+#tabladat tr td:nth-child(7n+0) {
+	width: 80px;
+	text-align: center;
+}
+
+#tabladat tr td:nth-child(8n+0) {
+	width: 130px;
+}
+
+#tabladat tr td:nth-child(9n+0) {
+	width: 60px;
+	text-align: center;
+}
+
+
+input:disabled {
+	background-color: rgb(235, 235, 228);
+}
+
+select:disabled {
+	background-color: rgb(235, 235, 228);
+}
+
+.divNuevo > form > input:enabled, .divNuevo > form > select:enabled {
+	background-color: rgb(246, 246, 241);
+}
+
+#formbus > label {
+	font-size: 13px;
+	font-family: bel6;
+	font-weight: bold;
+	color: rgb(94, 109, 128);
+}
+
+/**************************************/
+.divconsulta > input {
+	font-family: 'bel3';
+	border: 1px solid #638b8b;
+}
+
+.divconsulta #buscarcliente {
+	width: 18%;
+}
+
+.divconsulta #fechaini, .divconsulta #fechafin, .divconsulta #buscarplaca {
+	width: 6%;
+	text-align: center;
+}
+
+.divconsulta #buscargrt {
+	width: 8%;
+}
+
+.divconsulta .btnconsultar  {
+	margin-right: 10px;
+	background-color: #2f4f4f;
+	border: 1px solid #2f4f4f;
+	border-radius: 2px;
+	padding: 5px 7px;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 11px;
+}
+
+.divconsulta .btnconsultar:active {
+	background-color: #618080;
+}
+
+#exportarexcel {
+	font-size: 11px;
+	font-family: 'bel6';
+	margin-right: 20px;
+}

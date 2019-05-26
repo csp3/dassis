@@ -1,0 +1,135 @@
+#constancia, #categoria, #seriechasis, #modelo, #placa, #marca, #ejes, #aniofab, #carga, #motor, #soatfec, #extinfec, #revtecfec {
+	width: 18%;
+	border: 1px solid #1b7f9198;
+	border-radius: 3px;
+	padding: 2px 3px;
+	color: #506760;
+	font-family: bel2;
+	margin-top: 3px;
+	margin-right: 15px;
+	background-color: #b2b2b2;
+}
+
+
+#tablatit tr td:nth-child(n+0) {
+	width: 3%;
+}
+
+#tablatit tr td:nth-child(2n+0) {
+	width: 8%;
+}
+
+#tablatit tr td:nth-child(3n+0) {
+	width: 11%;
+}
+
+#tablatit tr td:nth-child(4n+0) {
+	width: 4%;
+}
+
+#tablatit tr td:nth-child(5n+0) {
+	width: 8%;
+}
+
+#tablatit tr td:nth-child(6n+0) {
+	width: 8%;
+}
+
+#tablatit tr td:nth-child(7n+0) {
+	width: 4%; 
+}
+
+#tablatit tr td:nth-child(8n+0) {
+	width: 4%;
+}
+
+#tablatit tr td:nth-child(9n+0) {
+	width: 8%;
+}
+
+#tablatit tr td:nth-child(10n+0) {
+	width: 7%;
+}
+
+#tablatit tr td:nth-child(11n+0) {
+	width: 7%;
+}
+
+#tablatit tr td:nth-child(12n+0) {
+	width: 7%;
+}
+
+#tablatit tr td:nth-child(13n+0) {
+	width: 5%;
+}
+
+#tablatit tr td {
+	text-align: center;
+	font-size: 11px;
+}
+
+
+
+#tabladat tr td:nth-child(n+0) {
+	width: 3%;
+	text-align: right;
+}
+
+#tabladat tr td:nth-child(2n+0) {
+	width: 8%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(3n+0) {
+	width: 11%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(4n+0) {
+	width: 4%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(5n+0) {
+	width: 8%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(6n+0) {
+	width: 8%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(7n+0) {
+	width: 3%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(8n+0) {
+	width: 4%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(9n+0) {
+	width: 6%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(10n+0) {
+	width: 7%;
+	text-align: center;
+}
+
+#tabladat tr td:nth-child(11n+0) {
+	width: 7%;
+	text-align: center;
+}
+
+#tabladat tr td:nth-child(12n+0) {
+	width: 7%;
+	text-align: center;
+}
+
+#tablatit tr td:nth-child(13n+0) {
+	width: 5%;
+}

@@ -1,0 +1,54 @@
+npm i cors body-parser mysql2 sequelize nodemon consign 
+
+npm i @babel/core @babel/cli @babel/preset-env @babel/node -D
+
+// esto evita:  req.body undefined 
+var bodyParser = require('body-parser'); 
+app.use(bodyParser.json()); 
+app.use(bodyParser.urlencoded({ extended: true }));
+
+
+// antes de asociar,  no poner la columna que hara de foreign key de la "tabla=facturas"
+facturas.associate = (models) => {
+  facturas.belongsTo(models.clientes, {
+    foreignKey: 'cliente_id'  //aca se pone
+    
+  });
+}
+
+
+// archivos vistos:
+src>index.js
+src>db.js
+src>libs>middlewares.js
+src>libs>config.js  
+src>libs>boot.js
+src>models>Cliente.js
+src>routes>cliente.js
+src>routes>index.js
+client>config>index.js
+client>src>router>index.js
+client>src>components>ListaCliente.vue
+
+
+// nombre de exportacion de models
+const facturas = sequelize.define('facturas', {...},{timestap:false});
+
+
+// retornar algunas columnas y/o retornar algunas columnas asociadas 
+const Factura = app.db.models.facturas;
+const Cliente = app.db.models.clientes;
+Factura.findAll( {attributes: ['factura_id'], include: [{model: Cliente, attributes: ['cliente_nombre'] }]})
+
+
+// error de columnas: 
+{
+timestap: false
+}
+
+// error tabs y nuevaLinea
+client>.eslintrc.js 
+*agregar en rules-> 
+"eol-last": 0,
+"no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+

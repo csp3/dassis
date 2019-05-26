@@ -1,0 +1,97 @@
+#nombre, #apepat, #apemat, #dniruc, #fecing, #direccion, #telefono,#email, #nacion {
+	width: 28%;
+	border: 1px solid #1b7f9198;
+	border-radius: 3px;
+	padding: 2px 3px;
+	color: #506760;
+	font-family: bel2;
+	margin-top: 3px;
+	margin-right: 15px;
+	background-color: #b2b2b2;
+}
+
+#nombre, #apepat, #apemat {
+	width: 28%;
+}
+
+#tablatit tr td:nth-child(n+0) {
+	width: 3%;
+}
+
+#tablatit tr td:nth-child(2n+0) {
+	width: 25%;
+} 
+
+#tablatit tr td:nth-child(3n+0) {
+	width: 7%;
+}
+
+#tablatit tr td:nth-child(4n+0) {
+	width: 6%;
+}
+
+#tablatit tr td:nth-child(5n+0) {
+	width: 11%;
+}
+
+#tablatit tr td:nth-child(6n+0) {
+	width: 11%;
+}
+
+#tablatit tr td:nth-child(7n+0) {
+	width: 11%;
+}
+
+#tablatit tr td:nth-child(8n+0) {
+	width: 6%;
+}
+
+#tablatit tr td:nth-child(9n+0) {
+	width: 6%;
+}
+
+
+#tabladat tr td:nth-child(n+0) {
+	width: 3%;
+	text-align: right;
+}
+
+#tabladat tr td:nth-child(2n+0) {
+	width:  26%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(3n+0) {
+	width: 8%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(4n+0) {
+	width: 6%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(5n+0) {
+	width: 12%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(6n+0) {
+	width:  12%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(7n+0) {
+	width: 12%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(8n+0) {
+	width: 6%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(9n+0) {
+	width: 5%;
+	text-align: center;
+}

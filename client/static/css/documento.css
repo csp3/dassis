@@ -1,0 +1,172 @@
+#tipoclipro, #clienom, #provnom, #tipodoc, #nro, #feccrea, #pago, #pagoTotal, #contenido, #feccan {
+	width: 15%;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	padding: 1px 3px;
+	color: #506760;
+	font-family: bel2;
+	margin-top: 5px;
+	margin-right: 15px;
+	/* display: inline-block; */
+	float: left;
+	background-color: #b2b2b2;
+}
+
+#btnAgregar {
+	margin: 0;
+	margin-top: 35px;
+}
+
+#contenido {
+	width: 44.5%;
+	height: 50px;
+	resize: none;
+}
+
+#nro {
+	width: 15%;
+}
+
+#feccrea, #feccan, #pagoTotal {
+	width: 9%;
+}
+
+#clienom, #provnom {
+	width: 30%;
+}
+
+#tipodoc {
+	width: 14%;
+}
+
+#tablatit tr td:nth-child(n+0) {
+	width: 3%;
+}
+
+#tablatit tr td:nth-child(2n+0) {
+	width: 9%;
+}
+
+#tablatit tr td:nth-child(3n+0) {
+	width: 3%;
+}
+
+#tablatit tr td:nth-child(4n+0) {
+	width: 18%;
+}
+
+#tablatit tr td:nth-child(5n+0) {
+	width: 7%;
+}
+
+#tablatit tr td:nth-child(6n+0) {
+	width: 21%;
+}
+
+#tablatit tr td:nth-child(7n+0) {
+	width: 7%;
+}
+
+#tablatit tr td:nth-child(8n+0) {
+	width: 5%;
+}
+
+#tablatit tr td:nth-child(9n+0) {
+	width: 6%;
+}
+
+
+
+#tabladat tr td:nth-child(n+0) {
+	width: 3%;
+	text-align: right;
+}
+
+#tabladat tr td:nth-child(2n+0) {
+	width: 7%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(3n+0) {
+	width: 4%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(4n+0) {
+	width: 13%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(5n+0) {
+	width: 4%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(6n+0) {
+	width: 20%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(7n+0) {
+	width: 5%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(8n+0) {
+	width: 4%;
+	text-align: left;
+}
+
+#tabladat tr td:nth-child(9n+0) {
+	width: 5%;
+	text-align: center;
+}
+
+input:disabled {
+	background-color: rgb(235, 235, 228);
+}
+
+select:disabled {
+	background-color: rgb(235, 235, 228);
+}
+
+.divNuevo > form > input:enabled, .divNuevo > form > select:enabled {
+	background-color: rgb(246, 246, 241);
+}
+
+
+
+.divconsulta > input {
+	font-family: 'bel3';
+	border: 1px solid #638b8b;
+}
+
+.divconsulta #buscarcliente {
+	width: 20%;
+}
+
+.divconsulta #fechaini, .divconsulta #fechafin, .divconsulta #buscarplaca {
+	width: 7%;
+	text-align: center;
+}
+
+.divconsulta .btnconsultar  {
+	margin-right: 20px;
+	background-color: #2f4f4f;
+	border: 1px solid #2f4f4f;
+	border-radius: 2px;
+	padding: 5px 7px;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 11px;
+}
+
+.divconsulta .btnconsultar:active {
+	background-color: #618080;
+}
+
+#exportarexcel {
+	font-size: 11px;
+	font-family: 'bel6';
+	margin-right: 20px;
+}
